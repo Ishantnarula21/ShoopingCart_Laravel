@@ -1,0 +1,381 @@
+body {
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.navigation {
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    float: left;
+    margin-right: 20px;
+    color: #ff026e;
+}
+
+.footer-navigation {
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-navigation li {
+    float: left;
+    margin-right: 20px;
+    color: white;
+}
+
+.footer-navigation li:hover {
+    cursor: pointer;
+}
+
+.navigation li:hover {
+    color: #329d8f;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #293241;
+    color: white;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: block;
+}
+
+.footer-inner {
+    height: 35px;
+}
+
+.user button {
+    border: none;
+    background-color: white;
+    color: #ff026e;
+    margin-right: 30px;
+}
+
+.fa-2x {
+    color: #ff026e;
+}
+
+.fa-2x:hover {
+    color: #329d8f;
+}
+
+.active {
+    background-color: #41d2bf;
+}
+
+.card img {
+    height: 333px;
+    width: 217px;
+}
+
+.footer-2 {
+    height: 70px;
+}
+
+.headings {
+    font-family: 'Dancing Script';
+    color: #ff026e;
+}
+
+.category {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+    border: 1px solid #329d8f;
+    transition: 0.20s all;
+}
+
+.category:hover {
+    box-shadow: 0 8px 12px -8px black;
+}
+
+.inner-logo div {
+    float: left;
+    height: 80px;
+}
+
+.inner-logo {
+    margin: auto;
+    height: 80px;
+}
+
+.logo-div h1 span {
+    font-family: 'Dancing Script';
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+.logo-div h1 {
+    margin-bottom: 0px;
+}
+
+.aura {
+    color: #ff026e;
+}
+
+.bee {
+    color: #329d8f;
+}
+
+.logo-div h5 {
+    color: #329d8f;
+    margin: 0;
+    float: left;
+    float: left;
+    font-size: 15px;
+}
+
+.search div {
+    height: 30px;
+    margin: auto;
+    border: 1px solid grey;
+}
+
+.search div select {
+    border: none;
+}
+
+select:focus {
+    outline: none !important
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+.search div input {
+    width: 80%;
+    border: none;
+}
+
+.search div input:focus {
+    outline: none;
+}
+
+.search div button {
+    border: none;
+    float: right;
+    height: 28px;
+    width: 35px;
+    color: white;
+    background-color: #ff026e;
+}
+
+.contact-image {
+    background-image: url("http://localhost/laravel/ShoppingCart/resources/images/Contactus/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.getintouch {
+    color: black;
+    text-shadow: 1px red;
+}
+
+.getintouch h1 {
+    color: #ff026e;
+}
+
+.job {
+    background-color: #329d8f;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.form-div {
+    background-color: white;
+    height: 500px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 14px 3px #aaa3a3;
+}
+
+.form-div-inner {
+    margin: 20px;
+}
+
+.lets h3 {
+    color: #ff026e;
+}
+
+.ri {
+    color: #329d8f;
+}
+
+
+.query {
+    background-color: none;
+    background: transparent;
+    padding: 6px;
+    width: 150px;
+    border-radius: 5px;
+    color: #329d8f;
+    border: 1px solid #329d8f;
+    margin-right: 20px;
+}
+
+.query:hover {
+    background-color: #329d8f;
+    border: 1px solid #329d8f;
+}
+
+.navigation a {
+    padding: 5px;
+}
+
+.categorymen {
+    height: 212px;
+    width: 176px;
+}
+
+.categoryWomen {
+    height: 212px;
+    width: 176px;
+}
+
+.categorykids {
+    height: 344px;
+    width: 259px;
+}
+
+.favoritekids {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+    transition: 0.20s all;
+}
+
+.favoritekids:hover {
+    box-shadow: 0 8px 12px -8px black;
+}
+
+.Iconicbrands {
+    width: 265px;
+    height: 302px;
+}
+
+.scrollup {
+    position: fixed;
+    top: 80%;
+    right: 10px;
+}
+.productimage img{
+    height: 220px;
+    width: 170px;
+    border-radius: 13px;
+}
+.productcategory{
+    border-top:1px solid #e9e9ed;
+    border-right: 1px solid #e9e9ed;
+    padding: 10px;
+}
+.productdisplay{
+    border-top:1px solid #e9e9ed;
+    padding-top: 10px;
+}
+.productmain{
+    padding: 10px;
+    height: 360px;
+    position: relative;
+    transition: 0.3s all;
+
+}
+.productmain:hover{
+    box-shadow:0 8px 12px -8px rgb(116, 114, 114);
+    cursor: pointer;
+}
+.pmain:hover{
+    box-shadow:0 8px 12px -8px rgb(116, 114, 114);
+    cursor: pointer;
+}
+.productmain:hover::after{
+    content:" ";
+    height: 220px;
+    width: 170px;
+    background-color: black;
+    opacity: 0.2;
+    border-radius: 13px;
+    display: block;
+    position: absolute;
+    top: 10px;
+}
+.productdisplay a{
+    text-decoration: none;
+    color: black;
+}
+.productinfo p{
+    margin-bottom: 5px;
+    text-overflow: ellipsis;
+}
+.productcategory ul{
+    list-style: none;
+}
+.productcategory a{
+    text-decoration: none;
+    color: black;
+}
+.pcul{
+    margin-bottom: 5px;
+}
+.pcul:hover{
+    font-size: 14px;
+    text-shadow: 0px 0px black;
+}
+.buynow a{
+    height: 30px;
+    width: 75px;
+    margin-right: 5px;
+    color: white;
+    font-size: 11px;
+}
+.atc{
+    height: 200px;
+    padding: 10px;
+}
+.buynowimage{
+    height: 160px;
+    width: 130px;
+}
+.pinfo{
+    border: 1px solid #e9e9ed;
+}
+.pricing a{
+    height: 30px;
+    width: 95px;
+    font-size: 11px;
+}
+.lts{
+    border: 1px solid #e9e9ed;
+    width: 640px;
+    height: 80px;
+    padding: 10px;
+}
+.lts img{
+    height: 50px;
+    width: 100px;
+}
+.lbn{
+    color: #ff026e!important;
+}
+.atca{
+    width: 100px!important;
+    float: left;
+    margin-left: 30px;
+}
